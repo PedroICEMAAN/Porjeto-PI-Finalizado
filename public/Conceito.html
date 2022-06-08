@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/index.css">
+    <link rel="icon" href="../img/IceWorl-logo-removebg-preview.png">
+    <script src="./js/funcoes.js"></script>
+    <title>IceWorl - Conceito</title>
+</head>
+
+<body>
+
+    <!-- HEADER -->
+
+    <div class="fundo">
+        <div class="header">
+            <div class="container">
+
+                <div class="titulo">
+                    <img src="../img/IceWorl-logo.png" alt="">
+                    <h1>ICEWORLD❄️</h1>
+                </div>
+
+                <ul class="navBar">
+                    <li class="aqui">
+                        <a href="/">
+                            Home
+                        </a>
+                    </li>
+                    <li>
+                        <a href="Conceito.html">
+                            Conceito
+                        </a>
+                    </li>
+                    <li>
+                        <a href="Sobre.html">
+                            Sobre Nos
+                        </a>
+                    </li>
+                </ul>
+
+
+            </div>
+        </div>
+
+        <!-- BANNER -->
+
+        <div class="banner">
+            <div class="container">
+                <h1><br>Conceito</h1>
+                <img  id="gifyt" src="./img/infinity.gif" alt="logo_nba">
+            </div>
+        </div>
+    
+    
+
+    <!-- SOCIAL -->
+
+    <div class="social">
+
+        <div class="parte1">
+            <div class="container">
+                <div class="box1">
+                    <!-- <h1>Pedro Henrique Anastacio</h1> -->
+                    <h4>A ideia do site é de você testar todos os conhecimentos sobre NBA.</h4>
+                </div>
+                <div class="box2">
+                    <img id="NBA" src="./img/michael-jordan-1.webp" alt="">
+                </div>
+            </div>
+        </div>
+
+        
+
+    <!-- FOOTER -->
+
+    <div class="footer">
+        <div class="container">
+            <div class="boxes_footer1">
+
+                <!-- <div class="slogan_footer">
+                    <h1>NBA <br> De um outro ponto de vista</h1>
+                </div> -->
+
+                <div class="listas_footer">
+                    <ul class="ul_footer">
+                        <h3>Empresa</h3>
+                        <li>Sobre</li>
+                        <li>Marca</li>
+                        <li>Empregos</li>
+                    </ul>
+
+                    <ul class="ul_footer">
+                        <h3>Politica</h3>
+                        <li>Termos</li>
+                        <li>Privacidade</li>
+                        <li>Licenças</li>
+                    </ul>
+
+                    <ul class="ul_footer">
+                        <h3>Contato</h3>
+
+                        <li>Tel: (11) 99489-5676</li>
+                        <li>Email: iceworl@gmail.com</li>
+
+                    </ul>
+                </div>
+            </div>
+
+            <div class="divisao"></div>
+
+            <div class="boxes_footer2">
+                <div class="titulo">
+                    <img src="../img/IceWorl-logo.png" alt="">
+                    <h1>ICEWORLD</h1>
+                </div>
+
+                    </div>
+                </a>
+            </div>
+
+        </div>
+
+
+    </div>
+
+
+
+</body>
+
+</html>
+<script>
+     
+var vt_img = ['../img/dib.gif','../img/lake.gif','../img/KEvin.gif','../img/over.gif','../img/michael-jordan-1.webp','../img/damon.jpg','../img/dave.jpg','../img/nba-logos.gif','../img/mic.webp','../img/maximilien-vert-basketballcourt-02.gif'];
+
+artes.src = vt_img[vt_img.length -1];
+
+var slide=0;
+
+setInterval(()=>{
+    if(slide == (vt_img.length-1)){
+        slide = 0;
+    }
+    else {
+        slide++;
+    }
+
+    artes.src = vt_img[slide];
+
+}, 4000);
+
+var t_img = ['../img/parte-2 img.jpg','../img/LeBron.gif'];
+
+NBA.src = t_img[t_img.length -1];
+
+var trocar=0;
+
+setInterval(()=>{
+    if(trocar == (t_img.length-1)){
+        trocar = 0;
+    }
+    else {
+        trocar++;
+    }
+
+    NBA.src = t_img[trocar];
+
+}, 10000);
+
+
+var v_img = ['../img/curry.gif'];
+
+graphs.src = v_img[v_img.length -1];
+
+var troca=0;
+
+setInterval(()=>{
+    if(troca == (v_img.length-1)){
+        troca = 0;
+    }
+    else {
+        troca++;
+    }
+
+    graphs.src = v_img[troca];
+
+}, 5000);
+
+
+
+</script>

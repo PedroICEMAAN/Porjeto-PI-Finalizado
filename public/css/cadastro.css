@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Noto Sans', sans-serif;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(25, 0, 54);
+    background-image: url(../img/bull.gif);
+    background-size: cover;
+}
+
+body::-webkit-scrollbar{
+    width: 12px;
+}
+
+body::-webkit-scrollbar-track{
+    background-color: rgb(0, 0, 0);
+}
+
+body::-webkit-scrollbar-thumb{
+    background: #3241ff;
+    border-radius: 16px;
+}
+
+body * {
+    box-sizing: border-box;
+}
+
+.main-login {
+    margin: 0%;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.right{
+    width: 50vw;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    margin: 5%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px 35px;
+    background-color: rgba(0, 0, 0, 0.616);
+    border-radius: 9px;
+    box-shadow: 0px 5px 5px #3241ff;
+}
+
+.card > h1{
+    color: #3241ff;
+    font-weight: 800;
+    margin: 0;
+}
+
+.text{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 10px 0px;
+}
+
+.text > input{
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    padding: 15px;
+    background: #000000;
+    color: #f0ffffde;
+    font-size: 12pt;
+    box-shadow: 0px 5px 5px #3241ff;
+    outline: none;
+    box-sizing: border-box;
+}
+
+
+.text > label{
+    color: #f0ffffde;
+    margin-bottom: 10px;
+}
+
+.text > input::placeholder{
+    color: #f0ffff94;
+}
+
+.login{
+    width: 100%;
+    padding: 16px 50px;
+    margin: 5px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 3px;
+    color: #000;
+    background: #3f48c4;
+    cursor: pointer;
+    box-shadow: 0px 1px 1px #3241ff;
+
+}
+
+.cadastro{
+    width: 60%;
+    padding: 16px 0px;
+    margin: 25px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 3px;
+    color: #000;
+    background: #3f48c4;
+    cursor: pointer;
+    box-shadow: 0px 1px 1px #3241ff;
+
+}
+
+.login:hover {
+    background-color: #2b2b2b;
+    cursor: pointer;
+}
+
+.cadastro:hover {
+    background-color: #2b2b2b;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 950px){
+    .card-login {
+        width: 85%;
+    }
+    
+}
+
+@media only screen and (max-width: 600px){
+    .main-login {
+        flex-direction: column;
+    }
+    
+    .left{
+        width: 100%;
+        height: auto;
+    }
+
+    .right {
+        width: 100%;
+        height: auto;
+    }
+
+    .card-login {
+        width: 90%;
+    }
+}
